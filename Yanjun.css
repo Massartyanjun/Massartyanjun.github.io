@@ -1,0 +1,20 @@
+			.container {
+				padding-bottom: 50px;
+			}
+			.background {
+				background-color:blue;
+			}
+			.paragraph {
+				color: gray;
+			
+			
+
+			}
+			.fontsize{
+				size:13px, 50px;
+			}
+
+			#img4 {
+				background-image: url('https://s-media-cache-ak0.pinimg.com/564x/f2/5b/6f/f25b6f1eb0c6280c9db0a56b43523cbd.jpg');
+
+			}

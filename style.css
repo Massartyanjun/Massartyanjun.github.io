@@ -1,0 +1,89 @@
+
+	#Thelittlegirl{
+		background-image:url(https://s-media-cache-ak0.pinimg.com/236x/8f/7a/e6/8f7ae638205753999edb816bffdd6e10.jpg);
+
+		
+		
+		border: solid 10px rgba(255,200,40,.5);
+		width: 30%;
+		height: 370px;
+		padding: 10px 20px;
+		border: 1px solid transparent;
+		/*position: absolute;*/
+		float:left;
+		background-repeat: no-repeat;
+		
+
+	
+	}
+
+	#text-content {
+		position:absolute;
+
+	}
+
+
+	#WilliamWallaceDenslow{
+		background-image:url(https://s-media-cache-ak0.pinimg.com/236x/9e/51/80/9e5180c3c473f8d09015eba8bba97c1d.jpg);
+
+		
+		margin: 0px;
+		border: solid 10px rgba(255,90,40,.5);
+		width: 30%;
+		height: 370px;
+		padding: 10px 20px;
+		border: 1px solid transparent;
+		float: left;
+		opacity:  1;
+		background-repeat: no-repeat;
+
+
+		
+	}
+
+	#text-content {
+		 float: right;
+		 width: 80%;
+	}
+	#navbar{
+		 float: right;
+		 width: 200%;
+	}
+
+#hell03{
+	background-image:url(https://s-media-cache-ak0.pinimg.com/564x/96/3a/3f/963a3f9162e4e4709d9bd20fcf1fefd6.jpg);
+
+		
+		margin: 0px;
+		border: solid 10px rgba(255,90,40,.5);
+		width: 20%;
+		height: 300px;
+		padding: 10px 20px;
+		border: 1px solid transparent;
+		float: left;
+		opacity:  1;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+}
+.hell04{
+	background-image:url( );
+
+		
+border: solid 10px rgba(255,200,40,.5);
+		width: 30%;
+		height: 370px;
+		padding: 10px 20px;
+		border: 1px solid transparent;
+		/*position: absolute;*/
+		float:left;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		
+
+
+});
+
+		
+
