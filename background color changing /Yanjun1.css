@@ -1,0 +1,31 @@
+			.container {
+				padding-bottom: 90px;
+			}
+			.background {
+			background-color:orange;
+				 /*-webkit-animation: random 5s infinite;
+     			animation: random 5s infinite;
+				}
+				@keyframes  random {
+    			15% { background-color: red; } 
+    			30% { background-color: yellow; } 
+    			45% { background-color: green; } 
+    			60% { background-color: blue; }
+    			75% { background-color: white; }  
+			}*/
+			
+			
+			.paragraph {
+				color: gray;
+			
+			
+
+			}
+			.fontsize{
+				size:13px, 50px;
+			}
+
+			#img4 {
+				background-image: url('https://s-media-cache-ak0.pinimg.com/564x/f2/5b/6f/f25b6f1eb0c6280c9db0a56b43523cbd.jpg');
+
+
