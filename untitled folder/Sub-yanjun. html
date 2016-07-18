@@ -1,0 +1,26 @@
+	<html>
+
+	<head>
+		<title>Peter_Piper</title>
+		<h1 class="paragraph" font-size:2.55em; line-height: 1.5em;>Hello Everyone</h1>
+		
+
+	
+
+	<p class="paragraph" center> Hi, my name is  <strong>Katty</strong>, I come from Boston, US. I like to make friends with human, hope you like me. Thanks</p>
+
+		<div id="container2" class="container">
+		<span id="video1">
+				<video id="videoplayer1" width="90%" height="90%" postion="left"controls="none">
+					<source src="cat.mov">
+				</video>
+			</span>
+	</head>
+	
+	<body class="background">
+
+
+	</body>
+	</html>
+
+

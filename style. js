@@ -1,0 +1,70 @@
+<head>
+    <meta charset="utf-8">
+    
+    
+<title>
+AURA CR
+</title>
+    
+    <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    
+    <style type="text/css">
+        
+        body {
+            
+     position: relative;
+     background-color: #FFFFFF;
+     overflow-y: hidden; 
+     font-family: "Helvetica Neue", "Helvetica" ,"Verdana", "Arial", "sans-serif";
+     font-size: 1.05em;
+     }
+
+
+a{
+  text-align: center;
+}
+a:link {text-decoration:none; color: #000 }
+a:visited {text-decoration:none; color: #000 }
+a:hover {text-decoration: none;color:#3B0B39 }
+a:active {text-decoration: none; color:#ddd}
+
+p{
+    
+    
+    font-size: 1.4em;
+    line-height: 1.2em; 
+    font-family: "Helvetica Neue", "Helvetica" ,"Verdana", "Arial", "sans-serif";
+    margin-top: 4px;
+
+}
+
+.titulFont {
+    
+    margin-top: 20px;
+    font-size: 2.3em;
+    
+}
+        
+#bigContainer{
+    
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    font-size: .8em;
+
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    max-width: 50%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+        
+       </style> 
+        
+</head>

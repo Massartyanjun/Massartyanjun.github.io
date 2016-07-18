@@ -13,7 +13,10 @@
     			60% { background-color: #CCE5FF; }
     			75% { background-color: #CCFFFF; }  
 			}
-			
+			#audioplayer1
+			{
+				display: none;
+			}
 			.paragraph {
 				color: white;
 			}
