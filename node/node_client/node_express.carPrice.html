@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>API Example</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script>
+	var searchTerm;
+
+
+
+		$(document).ready(function(){
+
+			console.log("ready")
+			$("#api_search").click(function(){
+
+				console.log("clicked");
+
+				$.ajax({
+				url: "https://api.spotify.com/v1/search", //package the request information to the url
+				
+				data:{
+					q: $("#api_filed").val() + ":" +$("#api_term").val(),					
+					type: $("#api_return").val(),
+					limit: "20"
+				},
+
+				success: ajaxHandler // "name" can be everthing that you want // the function is you succes to get what you want, so that called NameHandler. then you got the data.
+			});
+		});
+
+
+	});
+
+		function ajaxHandler(data) // take the data
+		{
+			console.log(data); // then you begin to "eat" the data
+			var typestring = $("#api_return").val() +"s";
+			$("#api_result").text("");
+			var results = data[typeString].items; //Array of albums
+			
+				
+
+			var results = data[typestring].items;// give me array
+			for(var i = 0; i < results.length; i++)
+			{
+				$("#api_result").append(results[i].name + "\n"); //name, change the ID name
+			}
+		}
+		
+
+	</script>
+
+</head>
+<body>
+	<textarea id="api_result" cols=60 rows=20></textarea>
+	
+
+
+	<fieldset>
+			<label>Search Term:</label>
+			<input type="text" id="api_term">
+	</fieldset>
+	<fieldset>
+		<label>Return Only:</label>
+		<select id="api_return">
+			<option value="album">Albums</option>
+			<option value="artist">Artists</option>
+			<option value="track">Songs</option>
+			<option value="playlist">Playlists</option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<label>Search Only:</label>
+		<select id="api_field">
+			<option value="album">Albums</option>
+			<option value="artist">Artists</option>
+			<option value="track">Songs</option>
+			<option value="playlist">Playlists</option>
+		</select>
+	</fieldset>
+	
+	<button id="price_up">Increase Price</button><button id="price_down"> Decrease price</button>
+	
+
+
+
+</body>
+</html>
