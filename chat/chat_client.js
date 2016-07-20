@@ -1,9 +1,11 @@
 $(document).ready(function(){
 
 	var socket = io("http://localhost:3000");
-	$.ajax({
+	$("#chat=start").click(function(){
+		$.ajax({
 		url: "http://localhost:3000/get_archive",
-		success: function(data){ //past the data
+		success: function(data){ //pass the data
+			$("#chat-log ul li").remove();
 			for (var i=0;i<data.length;i++)
 			{
 
@@ -19,6 +21,7 @@ $(document).ready(function(){
 	}
 
 	});
+});
 
 
 
