@@ -1,0 +1,79 @@
+body
+{
+	font:13px;
+	font-family: courier, monospace;
+	background-color: black;
+}
+
+#chat-log
+{
+	background-color: #FFCCFF;
+	margin:5px;
+	border: solid 1px #000;
+	position: fixed;
+	top: 40px;
+	bottom: 90px;
+	width: 100%;
+	overflow-y: scroll;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+
+
+}
+#chat-log ul
+{
+	list-style: horizontal;
+	margin: 0;
+	padding: 0;
+}
+
+
+#chat-log ul li
+{
+	padding: 4px 10px;
+	margin: 10;
+	line-height: 0.1px;
+}
+
+
+#chat-log ul li.them-line
+{
+	padding: 10px 10px;
+}
+	
+
+
+form
+{
+	width: 100%;
+	background-color: #99FFFF;
+	position: fixed;
+	bottom: 0px;
+	left: 10px;
+	right: 5px;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+
+}
+
+form #chat-input
+{
+	border: none;
+	padding: 10px;
+	width: 80%;
+	margin-right: .5px;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	position:fixed;
+	bottom:100px;
+
+
+}
+form button
+{
+	width: 9%;
+	background-color: pink;
+	border: none;
+	padding: 10px;
+
+}
+
